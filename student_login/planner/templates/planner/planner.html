@@ -19,11 +19,52 @@
             <th>Spring2022</th>
         </tr>
         <tr>
-            <tb>
+
+            <td>
                 {% for cor in cs %}
-                {{cor.Courses}}, {{cor.Fall2018}},
+               <pre> {{cor.Courses}}<br></pre>
                 {% endfor %}
-            </tb>
+            </td>
+            <td>
+                 {% for cor in cs %}
+               <pre>   {{cor.Fall2018}}<br></pre>
+                {% endfor %}
+            </td>
+            <td>
+                 {% for cor in cs %}
+               <pre>    {{cor.Spring2019}}<br></pre>
+                {% endfor %}
+            </td>
+            <td>
+                 {% for cor in cs %}
+               <pre>   {{cor.Fall2019}}<br></pre>
+                {% endfor %}
+            </td>
+             <td>
+                 {% for cor in cs %}
+               <pre>    {{cor.Spring2020}}<br></pre>
+                {% endfor %}
+            </td>
+            <td>
+                 {% for cor in cs %}
+               <pre>  {{cor.Fall2020}}<br></pre>
+                {% endfor %}
+            </td>
+             <td>
+                 {% for cor in cs %}
+               <pre>    {{cor.Spring2021}}<br></pre>
+                {% endfor %}
+            </td>
+            <td>
+                 {% for cor in cs %}
+               <pre>   {{cor.Fall2021}}<br></pre>
+                {% endfor %}
+            </td>
+              <td>
+                 {% for cor in cs %}
+               <pre>    {{cor.Spring2022}}<br></pre>
+                {% endfor %}
+            </td>
         </tr>
     </table>>
 </body>
