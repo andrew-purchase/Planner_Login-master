@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>4-year Planner</title>
+</head>
+<body>
+    <h1>Python Using Django Webframework</h1>
+    <table border="1">
+        <tr>
+            <th>Courses</th>
+            <th>Fall2018</th>
+            <th>Spring2019</th>
+            <th>Fall2019</th>
+            <th>Spring2020</th>
+            <th>Fall2020</th>
+            <th>Spring2021</th>
+            <th>Fall2021</th>
+            <th>Spring2022</th>
+        </tr>
+        <tr>
+            <tb>
+                {% for cor in cs %}
+                {{cor.Courses}}, {{cor.Fall2018}},
+                {% endfor %}
+            </tb>
+        </tr>
+    </table>>
+</body>
+</html>
